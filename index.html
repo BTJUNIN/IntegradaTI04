@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio do marcio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body class="background">
+
+    <!--
+    <nav>
+        <h2 class="portfolio">Portifo<span>lio</span>
+        </h2>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Areas do Conhecimento</a></li>
+            <li><a>Projetos</a></li>
+            <li><a>Curriculo</a></li>
+        </ul>
+    </nav> -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Ciencias Humanas</a></li>
+        <li><a href="#!">Ciencias da Natureza</a></li>
+        <li><a href="#!">Tecnologia</a></li>
+        <li><a href="#!">Linguagens</a></li>
+      </ul>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Portifolio</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Areas do Conhecimento<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="badges.html">Projetos</a></li>
+            <li><a href="collapsible.html">Curriculo</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <div class="meu-nome">
+        <h1>Marcio <span>Junior</span></h1>
+        <h3 class="Pentester">Pentester</h3>
+
+    </div>
+
+    <section>
+        <img src="./img/junin1.png">
+        <div>
+
+            <h2>sobre mim</h2>
+            <p id="texto"><br>Márcio, estudante de segurança ofensiva há dois anos, aprimorou suas habilidades na Desec
+                Security, onde adquiriu uma sólida base e enfrentou desafios de comprometimento de sistemas web e
+                infraestrutura de redes. Com mais de 200 horas de treinamento e sucesso em ambientes comprometidos,
+                concluiu seu treinamento em pentest profissional. Atualmente, está focado na obtenção da certificação
+                DCPT, vislumbrando oportunidades de crescimento em sua carreira no mercado de segurança digital. </p>
+            <button onclick="openURL('https://www.linkedin.com/in/marcio-junior-42ab73236/')" class="botao">Entre em
+                contato</button>
+            </p>
+        </div>
+
+    </section>
+
+    <div class="certi">
+        <h2>certificações</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./img/desec.jpeg">
+                <h5>Introdução ao Pentest</h5>
+                <p>Marcio Jose De Sousa Junior
+                    concluiu o curso Introdução ao Pentest na Prática com um total de 2 horas.
+                    01 de julho de 2022</p>
+                <button onclick="openURL('https://desecsecurity.com/valida-certificado/VPES-LJBHM-XSAW')" class="botao">
+                    exibir certificado</button>
+
+            </div>
+            <div class="card">
+                <img src="./img/desec.jpeg">
+                <h5>Introdução ao Pentest</h5>
+                <p>Marcio Jose De Sousa Junior
+                    concluiu o curso Novo Pentest Profissional
+                    com um total de 200 horas.
+                    13 de novembro de 2023
+                </p>
+                <button onclick="openURL('https://desecsecurity.com/valida-certificado/XUCX-LQIOE-ZUWS')" class="botao">
+                    exibir certificado</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="botao.js"> </script>
+<script>
+     M.AutoInit();
+</script>
+</html>
