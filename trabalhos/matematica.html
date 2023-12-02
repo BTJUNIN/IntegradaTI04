@@ -11,21 +11,40 @@
     <link rel="stylesheet" href="../custom.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="../index.html" class="brand-logo">Portfolio</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="../index.html#projects">Trabalhos</a></li>
-            <li><a href="../index.html#ti">Conhecimento</a></li>
-        </ul>
-    </div>
-</nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="/trabalhos/ciencias_humanas.html">Ciencias Humanas</a></li>
+        <li><a href="/trabalhos/ciencias_natureza.html">Ciencias da Natureza</a></li>
+        <li><a href="/trabalhos/linguagens.html">Linguagens</a></li>
+        <li><a href="/trabalhos/matematica.html">Matematica</a></li>
+        <li><a href="/trabalhos/projeto.html">Projeto</a></li>
+      </ul>
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="/ti/ciencias.html">Ciencias Humanas</a></li>
+        <li><a href="/ti/inteligencia.html">Inteligencia Artificial</a></li>
+        <li><a href="/ti/iot.html">IOT</a></li>
+        <li><a href="/ti/realidade.html">Realidade Aumentada</a></li>
+      </ul>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Portifolio</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Areas do Conhecimento<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Estudo<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
 <div class="container">
-    <h1>MATEMATICA</h1>
-    <p>adoro fuder</p>
+    <h1>Atividade Integrada 4º bimestre 
+    </h1>
+    <p>Na atividade tínhamos que fazer uma pesquisa com pessoas e a partir dos dados da pesquisa fazer uma apresentação. 
+    </p>
     <a href="../index.html">Voltar para site principal</a>
 </div>
 </body>
+<script>
+    M.AutoInit();
+</script>
 </html>

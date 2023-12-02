@@ -11,21 +11,41 @@
     <link rel="stylesheet" href="../custom.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="../index.html" class="brand-logo">Portfolio</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="../index.html#projects">Trabalhos</a></li>
-            <li><a href="../index.html#ti">Conhecimento</a></li>
-        </ul>
-    </div>
-</nav>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="/trabalhos/ciencias_humanas.html">Ciencias Humanas</a></li>
+        <li><a href="/trabalhos/ciencias_natureza.html">Ciencias da Natureza</a></li>
+        <li><a href="/trabalhos/linguagens.html">Linguagens</a></li>
+        <li><a href="/trabalhos/matematica.html">Matematica</a></li>
+        <li><a href="/trabalhos/projeto.html">Projeto</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="/ti/ciencias.html">Ciencias Humanas</a></li>
+        <li><a href="/ti/inteligencia.html">Inteligencia Artificial</a></li>
+        <li><a href="/ti/iot.html">IOT</a></li>
+        <li><a href="/ti/realidade.html">Realidade Aumentada</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Portifolio</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Areas do Conhecimento<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Estudo<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
 <div class="container">
-    <h1>Realidade AUMENTADA</h1>
-    <p>Bla bla bla bla bla bla bla bla bla</p>
+    <h1>Desafios e Avanços na Realidade Virtual</h1>
+    <p>Apesar dos avanços emocionantes, a Realidade Virtual ainda enfrenta desafios. Questões como a latência, que pode causar desconforto visual, e a necessidade de hardware especializado são considerações importantes. Avanços estão sendo feitos para superar esses desafios, com melhorias contínuas na resolução, rastreamento de movimento e interação mais intuitiva. A VR também está evoluindo para além dos jogos e simulações, sendo explorada em áreas como colaboração remota, turismo virtual e terapia mental. O futuro da Realidade Virtual promete uma integração mais fluida na vida cotidiana, proporcionando experiências cada vez mais realistas e imersivas.
+    </p>
     <a href="../index.html">Voltar para site principal</a>
 </div>
 </body>
+<script>
+    M.AutoInit();
+</script>
 </html>

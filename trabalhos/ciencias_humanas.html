@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ciencias Humanas</title>
     <!-- Compiled and minified CSS -->
@@ -11,21 +12,44 @@
     <link rel="stylesheet" href="../custom.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="../index.html" class="brand-logo">Portfolio</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="../index.html#projects">Trabalhos</a></li>
-            <li><a href="../index.html#ti">Conhecimento</a></li>
-        </ul>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="/trabalhos/ciencias_humanas.html">Ciencias Humanas</a></li>
+        <li><a href="/trabalhos/ciencias_natureza.html">Ciencias da Natureza</a></li>
+        <li><a href="/trabalhos/linguagens.html">Linguagens</a></li>
+        <li><a href="/trabalhos/matematica.html">Matematica</a></li>
+        <li><a href="/trabalhos/projeto.html">Projeto</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="/ti/ciencias.html">Ciencias Humanas</a></li>
+        <li><a href="/ti/inteligencia.html">Inteligencia Artificial</a></li>
+        <li><a href="/ti/iot.html">IOT</a></li>
+        <li><a href="/ti/realidade.html">Realidade Aumentada</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Portifolio</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Areas do Conhecimento<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Estudo<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Atividade Integrada 4º bimestre </h1>
+        <p>
+            A proposta da atividade era a simulação de uma reunião da ONU onde cada dupla deveria representar um país e
+            debater sobre um tema específico.
+        </p>
+        <a href="../index.html">Voltar para site principal</a>
     </div>
-</nav>
-<div class="container">
-    <h1>Ciencias Humanas</h1>
-    <p>Bla bla bla bla bla bla bla bla bla</p>
-    <a href="../index.html">Voltar para site principal</a>
-</div>
 </body>
+<script>
+    M.AutoInit();
+</script>
 </html>
